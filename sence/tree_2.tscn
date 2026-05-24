@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://eiqhnn18qdvi"]
+
+[ext_resource type="Texture2D" uid="uid://c7q5b0d5g35n2" path="res://assets/New folder (3)/Extra/TX Plant with Shadow.png" id="1_1m8y5"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_r2d5c"]
+size = Vector2(7, 46)
+
+[node name="tree2" type="StaticBody2D" unique_id=1060659460]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1740411580]
+texture = ExtResource("1_1m8y5")
+region_enabled = true
+region_rect = Rect2(292.52087, 25.468521, 89.01721, 139.23221)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1322676907]
+position = Vector2(-1.5, 41)
+shape = SubResource("RectangleShape2D_r2d5c")

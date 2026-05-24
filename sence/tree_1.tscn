@@ -1,0 +1,24 @@
+[gd_scene format=3 uid="uid://bil60w32o22g0"]
+
+[ext_resource type="Texture2D" uid="uid://jxlw1e5cckwd" path="res://assets/New folder (3)/TX Plant.png" id="1_087k8"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_juyve"]
+size = Vector2(7.2368164, 30.99707)
+
+[node name="tree1" type="StaticBody2D" unique_id=64550053]
+z_index = 1
+y_sort_enabled = true
+position = Vector2(26875, -9704)
+skew = 0.017453292
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=152061575]
+position = Vector2(-3664.2085, 1005.11194)
+scale = Vector2(0.9618841, 1)
+texture = ExtResource("1_087k8")
+region_enabled = true
+region_rect = Rect2(5.19635, 19.47976, 148.16696, 154.60901)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1096410263]
+position = Vector2(-3664.5566, 1044.6563)
+scale = Vector2(0.9618841, 1)
+shape = SubResource("RectangleShape2D_juyve")

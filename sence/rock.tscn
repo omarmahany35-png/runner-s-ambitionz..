@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://6ix8wo4382tg"]
+
+[ext_resource type="Texture2D" uid="uid://b0di0vckqj1nj" path="res://assets/New folder (3)/TX Props.png" id="1_yjt17"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_wqmvd"]
+radius = 24.0
+height = 48.0
+
+[node name="rock" type="StaticBody2D" unique_id=188167240]
+position = Vector2(-6, 3)
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=970881143]
+position = Vector2(526, 184)
+texture = ExtResource("1_yjt17")
+region_enabled = true
+region_rect = Rect2(0, 424.3695, 64.24576, 57.682068)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=662405391]
+position = Vector2(527, 192)
+shape = SubResource("CapsuleShape2D_wqmvd")

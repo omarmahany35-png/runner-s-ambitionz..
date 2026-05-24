@@ -1,0 +1,120 @@
+[gd_scene format=3 uid="uid://mcsxxjibm0vj"]
+
+[ext_resource type="Texture2D" uid="uid://c7q5b0d5g35n2" path="res://assets/New folder (3)/Extra/TX Plant with Shadow.png" id="1_u4tuu"]
+
+[node name="tre" type="StaticBody2D" unique_id=2056370950]
+position = Vector2(448, 259)
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1056862066]
+position = Vector2(10, 40)
+texture = ExtResource("1_u4tuu")
+region_enabled = true
+region_rect = Rect2(211.35925, 178.31805, 57.682068, 57.682068)
+
+[node name="Sprite2D11" type="Sprite2D" parent="." unique_id=944020695]
+position = Vector2(1119, 131)
+texture = ExtResource("1_u4tuu")
+region_enabled = true
+region_rect = Rect2(211.35925, 178.31805, 57.682068, 57.682068)
+
+[node name="Sprite2D12" type="Sprite2D" parent="." unique_id=288373343]
+position = Vector2(65, 860)
+texture = ExtResource("1_u4tuu")
+region_enabled = true
+region_rect = Rect2(211.35925, 178.31805, 57.682068, 57.682068)
+
+[node name="Sprite2D13" type="Sprite2D" parent="." unique_id=85251199]
+position = Vector2(779, 57)
+scale = Vector2(1, 0.8684211)
+texture = ExtResource("1_u4tuu")
+region_enabled = true
+region_rect = Rect2(211.35925, 178.31805, 57.682068, 57.682068)
+
+[node name="Sprite2D14" type="Sprite2D" parent="." unique_id=360556929]
+position = Vector2(-403, 171)
+scale = Vector2(1, 0.8684211)
+texture = ExtResource("1_u4tuu")
+region_enabled = true
+region_rect = Rect2(211.35925, 178.31805, 57.682068, 57.682068)
+
+[node name="Sprite2D15" type="Sprite2D" parent="." unique_id=845772411]
+position = Vector2(112, 388)
+scale = Vector2(1, 0.8684211)
+texture = ExtResource("1_u4tuu")
+region_enabled = true
+region_rect = Rect2(211.35925, 178.31805, 57.682068, 57.682068)
+
+[node name="Sprite2D16" type="Sprite2D" parent="." unique_id=382735387]
+position = Vector2(481, 595)
+scale = Vector2(1, 0.8684211)
+texture = ExtResource("1_u4tuu")
+region_enabled = true
+region_rect = Rect2(211.35925, 178.31805, 57.682068, 57.682068)
+
+[node name="Sprite2D17" type="Sprite2D" parent="." unique_id=1510050550]
+position = Vector2(-320, 598)
+scale = Vector2(1, 0.8684211)
+texture = ExtResource("1_u4tuu")
+region_enabled = true
+region_rect = Rect2(211.35925, 178.31805, 57.682068, 57.682068)
+
+[node name="Sprite2D18" type="Sprite2D" parent="." unique_id=1310832649]
+position = Vector2(702, 388)
+scale = Vector2(1, 0.8684211)
+texture = ExtResource("1_u4tuu")
+region_enabled = true
+region_rect = Rect2(211.35925, 178.31805, 57.682068, 57.682068)
+
+[node name="Sprite2D2" type="Sprite2D" parent="." unique_id=1426659251]
+position = Vector2(-103, -79)
+texture = ExtResource("1_u4tuu")
+region_enabled = true
+region_rect = Rect2(211.35925, 178.31805, 57.682068, 57.682068)
+
+[node name="Sprite2D3" type="Sprite2D" parent="." unique_id=1199538344]
+position = Vector2(212, -157)
+texture = ExtResource("1_u4tuu")
+region_enabled = true
+region_rect = Rect2(211.35925, 178.31805, 57.682068, 57.682068)
+
+[node name="Sprite2D4" type="Sprite2D" parent="." unique_id=1557703704]
+position = Vector2(-87, -362)
+texture = ExtResource("1_u4tuu")
+region_enabled = true
+region_rect = Rect2(211.35925, 178.31805, 57.682068, 57.682068)
+
+[node name="Sprite2D6" type="Sprite2D" parent="." unique_id=686576027]
+position = Vector2(504, -146)
+texture = ExtResource("1_u4tuu")
+region_enabled = true
+region_rect = Rect2(211.35925, 178.31805, 57.682068, 57.682068)
+
+[node name="Sprite2D7" type="Sprite2D" parent="." unique_id=1010611755]
+position = Vector2(452, -469)
+texture = ExtResource("1_u4tuu")
+region_enabled = true
+region_rect = Rect2(211.35925, 178.31805, 57.682068, 57.682068)
+
+[node name="Sprite2D8" type="Sprite2D" parent="." unique_id=818147824]
+position = Vector2(-83, 141)
+texture = ExtResource("1_u4tuu")
+region_enabled = true
+region_rect = Rect2(211.35925, 178.31805, 57.682068, 57.682068)
+
+[node name="Sprite2D9" type="Sprite2D" parent="." unique_id=862069219]
+position = Vector2(-950, -8)
+texture = ExtResource("1_u4tuu")
+region_enabled = true
+region_rect = Rect2(211.35925, 178.31805, 57.682068, 57.682068)
+
+[node name="Sprite2D10" type="Sprite2D" parent="." unique_id=740430262]
+position = Vector2(923, -237)
+texture = ExtResource("1_u4tuu")
+region_enabled = true
+region_rect = Rect2(211.35925, 178.31805, 57.682068, 57.682068)
+
+[node name="Sprite2D5" type="Sprite2D" parent="." unique_id=318762435]
+position = Vector2(-666, -354)
+texture = ExtResource("1_u4tuu")
+region_enabled = true
+region_rect = Rect2(211.35925, 178.31805, 57.682068, 57.682068)

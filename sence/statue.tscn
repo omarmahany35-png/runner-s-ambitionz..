@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://euh1t4ds47on"]
+
+[ext_resource type="Texture2D" uid="uid://b0di0vckqj1nj" path="res://assets/New folder (3)/TX Props.png" id="1_8tvtv"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_uqlvn"]
+size = Vector2(25, 47)
+
+[node name="statue" type="StaticBody2D" unique_id=551527135]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=449965313]
+texture = ExtResource("1_8tvtv")
+region_enabled = true
+region_rect = Rect2(432.16385, 15.918068, 59.24109, 81.066696)
+
+[node name="StaticBody2D" type="CollisionShape2D" parent="." unique_id=1619374397]
+position = Vector2(1.5, 24.5)
+shape = SubResource("RectangleShape2D_uqlvn")
