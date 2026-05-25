@@ -904,10 +904,10 @@ layer_1/tile_data = PackedInt32Array(7012327, 1441794, 17, 7077863, 1441794, 18,
 
 [node name="player" parent="." unique_id=646143558 instance=ExtResource("8_kxntw")]
 y_sort_enabled = false
-position = Vector2(6649, 2609)
+position = Vector2(6621, 2625)
 
 [node name="Camera2D" type="Camera2D" parent="player" unique_id=46798866]
-position = Vector2(-1, -7)
+position = Vector2(1, -8)
 zoom = Vector2(0.6, 0.6)
 
 [node name="ScoreLable" type="Label" parent="player/Camera2D" unique_id=592511334]
