@@ -25,6 +25,7 @@ func _ready():
 
 
 func _physics_process(delta):
+	
 	player_movement(delta)
 	enemy_attack()
 	attack()
@@ -38,7 +39,7 @@ func _physics_process(delta):
 		await get_tree().create_timer(1.5).timeout
 		get_tree().reload_current_scene()
 	
-
+ # all movements
 func player_movement(delta):
 	
 	if Input.is_action_pressed("ui_right"):
@@ -113,7 +114,8 @@ func _on_player_hitbox_body_entered(body):
 func _on_player_hitbox_body_exited(body):
 	if body.has_method("enemy"):
 		enemy_inattack_range = false 
-
+ 
+#how enemy attack
 func enemy_attack():
 	if enemy_inattack_range and enemy_attack_cooldown == true:
 		health = health - 20
@@ -161,7 +163,7 @@ func _on_deal_attack_timer_timeout():
 
 
 
-
+#updating health
 func update_health():
 	var healthbar = $healthbar
 	
@@ -180,7 +182,8 @@ func _on_regin_timer_timeout():
 			health = 100
 	if health <= 0:
 		health = 0
-
+ 
+ #camera transitions
 func current_camera():
 	if glopal.current_scene == "world":
 		$Camera2D.enabled = true

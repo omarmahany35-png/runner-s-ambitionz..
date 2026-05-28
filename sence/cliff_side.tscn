@@ -711,6 +711,18 @@ position = Vector2(-835, 928)
 [node name="tree48" parent="stat" unique_id=1262325156 instance=ExtResource("5_epo2s")]
 position = Vector2(-1149, 164)
 
+[node name="tree71" parent="stat" unique_id=420411092 instance=ExtResource("5_epo2s")]
+position = Vector2(-1196, -197)
+
+[node name="tree72" parent="stat" unique_id=1012200205 instance=ExtResource("5_epo2s")]
+position = Vector2(-1374, 419)
+
+[node name="tree73" parent="stat" unique_id=1063286248 instance=ExtResource("5_epo2s")]
+position = Vector2(-1457, -55)
+
+[node name="tree74" parent="stat" unique_id=497542604 instance=ExtResource("5_epo2s")]
+position = Vector2(2160, -611)
+
 [node name="tree49" parent="stat" unique_id=1883532984 instance=ExtResource("5_epo2s")]
 position = Vector2(-1143, 732)
 
@@ -819,6 +831,42 @@ position = Vector2(1462, 1210)
 [node name="tree42" parent="stat" unique_id=721640015 instance=ExtResource("5_epo2s")]
 position = Vector2(904, 1389)
 
+[node name="tree59" parent="stat" unique_id=1793756483 instance=ExtResource("5_epo2s")]
+position = Vector2(957, 1685)
+
+[node name="tree60" parent="stat" unique_id=1163112133 instance=ExtResource("5_epo2s")]
+position = Vector2(1958, 1584)
+
+[node name="tree61" parent="stat" unique_id=1752089881 instance=ExtResource("5_epo2s")]
+position = Vector2(-706, 1708)
+
+[node name="tree62" parent="stat" unique_id=752823165 instance=ExtResource("5_epo2s")]
+position = Vector2(-1511, -400)
+
+[node name="tree63" parent="stat" unique_id=1473578647 instance=ExtResource("5_epo2s")]
+position = Vector2(-753, -672)
+
+[node name="tree64" parent="stat" unique_id=459613266 instance=ExtResource("5_epo2s")]
+position = Vector2(-25, -808)
+
+[node name="tree65" parent="stat" unique_id=1341330197 instance=ExtResource("5_epo2s")]
+position = Vector2(573, -778)
+
+[node name="tree66" parent="stat" unique_id=1298096409 instance=ExtResource("5_epo2s")]
+position = Vector2(1171, -689)
+
+[node name="tree67" parent="stat" unique_id=470767261 instance=ExtResource("5_epo2s")]
+position = Vector2(472, 323)
+
+[node name="tree68" parent="stat" unique_id=1321870597 instance=ExtResource("5_epo2s")]
+position = Vector2(10, 199)
+
+[node name="tree69" parent="stat" unique_id=679657583 instance=ExtResource("5_epo2s")]
+position = Vector2(1833, -588)
+
+[node name="tree70" parent="stat" unique_id=489885725 instance=ExtResource("5_epo2s")]
+position = Vector2(2810, -541)
+
 [node name="tree43" parent="stat" unique_id=836621352 instance=ExtResource("5_epo2s")]
 position = Vector2(37, 1017)
 
@@ -849,8 +897,11 @@ position = Vector2(2637, 759)
 [node name="tre" parent="stat" unique_id=2056370950 instance=ExtResource("6_oa8r3")]
 position = Vector2(6, -1)
 
+[node name="tre4" parent="stat" unique_id=227369847 instance=ExtResource("6_oa8r3")]
+position = Vector2(1559, 1100)
+
 [node name="tre3" parent="stat" unique_id=1529269114 instance=ExtResource("6_oa8r3")]
-position = Vector2(-501, 1056)
+position = Vector2(-483, 997)
 
 [node name="tre2" parent="stat" unique_id=1705057141 instance=ExtResource("6_oa8r3")]
 position = Vector2(1332, 31)

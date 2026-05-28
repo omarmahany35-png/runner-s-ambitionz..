@@ -19,7 +19,7 @@ func _on_cliffside_transition_point_body_entered(body):
 func _on_cliffside_transition_point_body_exited(body):
 	if body.has_method("player"):
 		glopal.transition_scene = false
-
+#leval 2 
 func change_scene():
 	if glopal.transition_scene == true:
 		if glopal.current_scene == "world":

@@ -904,7 +904,7 @@ layer_1/tile_data = PackedInt32Array(7012327, 1441794, 17, 7077863, 1441794, 18,
 
 [node name="player" parent="." unique_id=646143558 instance=ExtResource("8_kxntw")]
 y_sort_enabled = false
-position = Vector2(6274, 2514)
+position = Vector2(-355, 1732)
 
 [node name="Camera2D" type="Camera2D" parent="player" unique_id=46798866]
 position = Vector2(1, -8)
@@ -957,6 +957,36 @@ position = Vector2(-1325, 975)
 
 [node name="tree9" parent="tree" unique_id=1889316822 instance=ExtResource("5_k2rrg")]
 position = Vector2(56, 2102)
+
+[node name="tree128" parent="tree" unique_id=450882265 instance=ExtResource("5_k2rrg")]
+position = Vector2(323, 1955)
+
+[node name="tree129" parent="tree" unique_id=1196163862 instance=ExtResource("5_k2rrg")]
+position = Vector2(258, 2372)
+
+[node name="tree120" parent="tree" unique_id=1454079365 instance=ExtResource("5_k2rrg")]
+position = Vector2(-947, 1627)
+
+[node name="tree121" parent="tree" unique_id=1567702763 instance=ExtResource("5_k2rrg")]
+position = Vector2(-1527, 2816)
+
+[node name="tree122" parent="tree" unique_id=753854536 instance=ExtResource("5_k2rrg")]
+position = Vector2(-1388, 4639)
+
+[node name="tree123" parent="tree" unique_id=610947695 instance=ExtResource("5_k2rrg")]
+position = Vector2(239, 4881)
+
+[node name="tree124" parent="tree" unique_id=460672991 instance=ExtResource("5_k2rrg")]
+position = Vector2(1600, 4823)
+
+[node name="tree125" parent="tree" unique_id=617649737 instance=ExtResource("5_k2rrg")]
+position = Vector2(3307, 4950)
+
+[node name="tree126" parent="tree" unique_id=1318753821 instance=ExtResource("5_k2rrg")]
+position = Vector2(5614, 4985)
+
+[node name="tree127" parent="tree" unique_id=1555009373 instance=ExtResource("5_k2rrg")]
+position = Vector2(7852, 4731)
 
 [node name="tree8" parent="tree" unique_id=1890849366 instance=ExtResource("5_k2rrg")]
 position = Vector2(-276, 1612)
@@ -1433,6 +1463,9 @@ position = Vector2(4167, 2593)
 
 [node name="rock31" parent="rock_l" unique_id=1902376759 instance=ExtResource("7_xd0v0")]
 position = Vector2(-609, 3346)
+
+[node name="rock48" parent="rock_l" unique_id=1164764090 instance=ExtResource("7_xd0v0")]
+position = Vector2(-64, 2648)
 
 [node name="rock16" parent="rock_l" unique_id=397073591 instance=ExtResource("7_xd0v0")]
 position = Vector2(1587, 1595)
