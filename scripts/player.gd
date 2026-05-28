@@ -12,8 +12,15 @@ var attack_ip = false
 const speed = 100
 var current_dir = "none"
 
+
 func _ready():
 	$AnimatedSprite2D.play("front_idle")
+
+	if glopal.current_scene == "cliff_side":
+		position = Vector2(72.0, 9.0)
+
+	if glopal.current_scene == "world":
+		position = Vector2(-348,1720)
 
 
 
@@ -103,7 +110,7 @@ func _on_player_hitbox_body_entered(body):
 	if body.has_method("enemy"):
 		enemy_inattack_range = true
 
-func _on_player_hitbox_body_exited(body:):
+func _on_player_hitbox_body_exited(body):
 	if body.has_method("enemy"):
 		enemy_inattack_range = false 
 
@@ -180,5 +187,5 @@ func current_camera():
 		$cliffside_camera.enabled = false
 		 
 	elif glopal.current_scene == "cliff_side":
-		$world_camera.enabled = false
+		$Camera2D.enabled = false
 		$cliffside_camera.enabled = true 

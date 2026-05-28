@@ -462,7 +462,7 @@ autostart = true
 
 [node name="cliffside_camera" type="Camera2D" parent="." unique_id=893078680]
 position = Vector2(36, 15)
-zoom = Vector2(4, 4)
+zoom = Vector2(0.6, 0.6)
 
 [connection signal="body_entered" from="player_hitbox" to="." method="_on_player_hitbox_body_entered"]
 [connection signal="body_exited" from="player_hitbox" to="." method="_on_player_hitbox_body_exited"]

@@ -8,6 +8,7 @@
 [ext_resource type="PackedScene" uid="uid://mcsxxjibm0vj" path="res://sence/tre.tscn" id="6_oa8r3"]
 [ext_resource type="PackedScene" uid="uid://6ix8wo4382tg" path="res://sence/rock.tscn" id="7_ry6iw"]
 [ext_resource type="PackedScene" uid="uid://dg86vhi6jx8du" path="res://sence/enemy.tscn" id="8_1pfb4"]
+[ext_resource type="PackedScene" uid="uid://bov6efut0huwn" path="res://sence/player.tscn" id="9_cfy0c"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_skall"]
 texture = ExtResource("1_sajvw")
@@ -840,3 +841,9 @@ position = Vector2(-1654, -1122)
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D" unique_id=1146946973]
 polygon = PackedVector2Array(6, 10, 900, 626, 1409, 478, 1942, 466, 2445, 413, 2924, 413, 3729, 395, 4286, 460, 4511, 573, 4588, 922, 4629, 1123, 4647, 1490, 4653, 1905, 4505, 2207, 4191, 2438, 3309, 2479, 2569, 2420, 2054, 2337, 1444, 2296, 1036, 2183, 834, 1869, 752, 1573, 710, 1271, 698, 1058, 740, 875, 834, 744, 977, 443, -243, 40, -379, 1538, -196, 2746, 396, 3047, 2143, 2959, 4724, 2970, 5310, 2769, 5399, 1917, 5316, 1165, 5304, 573, 4949, -96, 4404, -102, 3499, -155, 2640, -286, 1296, -161, 615, -144, -7, -10)
+
+[node name="player" parent="." unique_id=646143558 instance=ExtResource("9_cfy0c")]
+position = Vector2(72, 9)
+
+[node name="Camera2D" type="Camera2D" parent="player" unique_id=416353427]
+zoom = Vector2(0.6, 0.6)
