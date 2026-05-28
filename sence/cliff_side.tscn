@@ -8,6 +8,7 @@
 [ext_resource type="PackedScene" uid="uid://mcsxxjibm0vj" path="res://sence/tre.tscn" id="6_oa8r3"]
 [ext_resource type="PackedScene" uid="uid://6ix8wo4382tg" path="res://sence/rock.tscn" id="7_ry6iw"]
 [ext_resource type="PackedScene" uid="uid://dg86vhi6jx8du" path="res://sence/enemy.tscn" id="8_1pfb4"]
+[ext_resource type="PackedScene" uid="uid://bov6efut0huwn" path="res://sence/player.tscn" id="9_cfy0c"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_skall"]
 texture = ExtResource("1_sajvw")
@@ -693,7 +694,7 @@ position = Vector2(74, 377)
 position = Vector2(-317, 528)
 
 [node name="tree37" parent="stat" unique_id=1296674097 instance=ExtResource("5_epo2s")]
-position = Vector2(-682, 555)
+position = Vector2(-675, 555)
 
 [node name="tree10" parent="stat" unique_id=928303703 instance=ExtResource("5_epo2s")]
 position = Vector2(1653, 368)
@@ -841,3 +842,17 @@ position = Vector2(1768, 756)
 
 [node name="enemy6" parent="stat" unique_id=280520626 instance=ExtResource("8_1pfb4")]
 position = Vector2(2287, 215)
+
+[node name="player" parent="." unique_id=646143558 instance=ExtResource("9_cfy0c")]
+position = Vector2(34, -8)
+
+[node name="Camera2D" type="Camera2D" parent="player" unique_id=393024016]
+position = Vector2(1, -8)
+zoom = Vector2(0.6, 0.6)
+
+[node name="ScoreLable" type="Label" parent="player/Camera2D" unique_id=1886903138]
+offset_left = -211.0
+offset_top = -132.0
+offset_right = -144.0
+offset_bottom = -109.0
+text = "coins = 0"
